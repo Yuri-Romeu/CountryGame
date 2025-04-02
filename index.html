@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Game Paises</title>
+          <link rel="stylesheet" href="style.css" />
+          <link
+               href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+               rel="stylesheet"
+          />
+     </head>
+     <body>
+          <div class="container">
+               <h1>Adivinhe qual o pais:</h1>
+
+               <div class="search">
+                    <input type="search" placeholder="Digite o nome do pais" id="search" />
+                    <button id="submit"><i class="ri-send-plane-2-fill"></i></button>
+               </div>
+
+               <div class="countries">
+                    <div class="box">
+                         <strong><p>Bandeira:</p></strong>
+                         <div class="elements"><img src="" id="flag" /></div>
+                    </div>
+
+                    <div class="box" id="box-01">
+                         <p>Idioma:</p>
+                         <div class="elements"><p id="language"></p></div>
+                    </div>
+
+                    <div class="box" id="box-02">
+                         <p>Moeda:</p>
+                         <div class="elements"><p id="currency"></p></div>
+                    </div>
+
+                    <div class="box" id="box-03">
+                         <p>Continente:</p>
+                         <div class="elements"><p id="continent"></p></div>
+                    </div>
+
+                    <div class="box" id="box-04">
+                         <p>População:</p>
+                         <div class="elements"><p id="population"></p></div>
+                    </div>
+
+                    <div class="box" id="box-05">
+                         <p>L. Carro:</p>
+                         <div class="elements"><p id="car"></p></div>
+                    </div>
+
+                    <div class="box" id="box-06">
+                         <p>Area:</p>
+                         <div class="elements"><p id="area"></p></div>
+                    </div>
+               </div>
+          </div>
+          <script src="script.js"></script>
+     </body>
+</html>
